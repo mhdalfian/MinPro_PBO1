@@ -1,6 +1,6 @@
 # Dokumentasi MinPro PBO Tema Vending Machine Sederhana
 
-Nama: Muhammad Alfian Adien 
+Nama: Muhammad Alfian Adien  
 NIM 2309116034 Sistem Informasi A'23
 
 # Alur Output Program
