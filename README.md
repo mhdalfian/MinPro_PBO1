@@ -24,7 +24,6 @@ Program ini memiliki dua class utama:
      - stock: Jumlah stok minuman yang tersedia.
    - Method:
      - toString: Mengembalikan informasi lengkap tentang minuman dalam format teks.
-     - Getters dan Setters untuk properti nama, harga, dan stok.
    - Constructor: Menginisialisasi objek Drink dengan nama, harga, dan stok yang diberikan.
 
 2. VendingMachine
@@ -42,15 +41,16 @@ Program ini memiliki dua class utama:
 Program ini dibagi ke dalam dua package:
 
 1. main
-   - Package ini berisi kelas utama VendingMachineApp, yang merupakan entry point dari program. Di sini pengguna dapat berinteraksi dengan vending machine melalui terminal/console.
+   - Package ini berisi kelas utama VendingMinPro_PBO, yang merupakan entry point dari program. Di sini pengguna dapat berinteraksi dengan vending machine melalui terminal/console.
    - Class: 
-     - VendingMachineApp: Mengelola logika interaksi dengan pengguna, menampilkan menu, serta menangani input pengguna untuk melakukan operasi CRUD pada daftar minuman.
+     - VendingMinPro_PBO: Mengelola logika interaksi dengan pengguna, menampilkan menu, serta menangani input pengguna untuk melakukan operasi CRUD pada daftar minuman.
 
 2. model
    - Package ini berisi model data untuk aplikasi, yaitu kelas Drink dan VendingMachine.
    - Class:
      - Drink: Merepresentasikan minuman dalam vending machine.
      - VendingMachine: Mengelola daftar minuman dan menyediakan fitur CRUD untuk objek Drink.
+       
 # Alur Output Program
 
 1. Program dimulai dengan menampilkan Menu awal program Vending Machine sederhana yang terdiri dari CRUD(Create, Read, Update, Delete). Jika kita memilih menu 1. Tampilkan Minuman maka akan menampilkan beberapa Nama minuman, harga, dan stok yang tersedia.
