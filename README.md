@@ -1,7 +1,7 @@
 # Dokumentasi MinPro PBO Tema Vending Machine Sederhana
 
-### Nama: Muhammad Alfian Adien  
-### NIM 2309116034 Sistem Informasi A'23
+#### Nama: Muhammad Alfian Adien  
+#### NIM 2309116034 Sistem Informasi A'23
 
 ### Deskripsi Program 
 Vending Machine Minuman Sederhana adalah sebuah program simulasi mesin penjual otomatis yang memungkinkan pengguna untuk melihat daftar minuman, menambah minuman baru, menghapus minuman yang ada, serta memperbarui informasi minuman seperti nama, harga, dan stok. Program ini ditulis dalam bahasa pemrograman Java dengan konsep CRUD (Create, Read, Update, Delete) yang diimplementasikan melalui dua kelas utama dan menggunakan struktur ArrayList untuk menyimpan data minuman.
