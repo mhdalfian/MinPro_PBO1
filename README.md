@@ -1,8 +1,58 @@
-# Dokumentasi MinPro PBO Tema Vending Machine Sederhana
+## Dokumentasi MinPro PBO Tema Vending Machine Sederhana
 
 Nama: Muhammad Alfian Adien  
 NIM 2309116034 Sistem Informasi A'23
 
+# Deskripsi  
+Vending Machine Minuman Sederhana adalah sebuah program simulasi mesin penjual otomatis yang memungkinkan pengguna untuk melihat daftar minuman, menambah minuman baru, menghapus minuman yang ada, serta memperbarui informasi minuman seperti nama, harga, dan stok. Program ini ditulis dalam bahasa pemrograman Java dengan konsep CRUD (Create, Read, Update, Delete) yang diimplementasikan melalui dua kelas utama dan menggunakan struktur ArrayList untuk menyimpan data minuman.
+
+Program ini dapat dijalankan di terminal atau console dan menampilkan antarmuka berbasis teks untuk mengelola data minuman secara interaktif.
+
+### Fitur
+- Tampilkan Daftar Minuman (Read): Menampilkan semua minuman yang tersedia di vending machine beserta harga dan stoknya.
+- Tambah Minuman (Create): Menambahkan minuman baru ke dalam vending machine dengan memasukkan nama, harga, dan stok.
+- Hapus Minuman (Delete): Menghapus minuman dari vending machine berdasarkan index yang dimasukkan oleh pengguna.
+- Update Minuman (Update): Memperbarui informasi minuman seperti nama, harga, dan stok berdasarkan index.
+- Validasi Input: Menangani kesalahan input seperti index yang tidak valid atau pilihan menu yang salah.
+
+### Class
+Program ini memiliki dua class utama:
+
+1. Drink
+   - Deskripsi: Kelas ini merepresentasikan entitas minuman dalam vending machine. Setiap minuman memiliki atribut nama, harga, dan stok.
+   - Properties:
+     - name: Nama minuman.
+     - price: Harga minuman.
+     - stock: Jumlah stok minuman yang tersedia.
+   - Method:
+     - toString: Mengembalikan informasi lengkap tentang minuman dalam format teks.
+     - Getters dan Setters untuk properti nama, harga, dan stok.
+   - Constructor: Menginisialisasi objek Drink dengan nama, harga, dan stok yang diberikan.
+
+2. VendingMachine
+   - Deskripsi: Kelas ini mengelola operasi CRUD terhadap daftar minuman. Menggunakan struktur data ArrayList untuk menyimpan objek Drink.
+   - Properties:
+     - drinks: ArrayList static yang menyimpan objek Drink.
+   - Method:
+     - addDrink: Menambahkan minuman baru ke dalam daftar.
+     - removeDrink: Menghapus minuman dari daftar berdasarkan index.
+     - updateDrink: Memperbarui informasi minuman di posisi tertentu.
+     - showDrinks: Menampilkan semua minuman yang ada dalam vending machine.
+   - Constructor: Menambahkan beberapa minuman default ketika vending machine dibuat.
+
+### Package
+Program ini dibagi ke dalam dua package:
+
+1. main
+   - Package ini berisi kelas utama VendingMachineApp, yang merupakan entry point dari program. Di sini pengguna dapat berinteraksi dengan vending machine melalui terminal/console.
+   - Class: 
+     - VendingMachineApp: Mengelola logika interaksi dengan pengguna, menampilkan menu, serta menangani input pengguna untuk melakukan operasi CRUD pada daftar minuman.
+
+2. model
+   - Package ini berisi model data untuk aplikasi, yaitu kelas Drink dan VendingMachine.
+   - Class:
+     - Drink: Merepresentasikan minuman dalam vending machine.
+     - VendingMachine: Mengelola daftar minuman dan menyediakan fitur CRUD untuk objek Drink.
 # Alur Output Program
 
 1. Program dimulai dengan menampilkan Menu awal program Vending Machine sederhana yang terdiri dari CRUD(Create, Read, Update, Delete). Jika kita memilih menu 1. Tampilkan Minuman maka akan menampilkan beberapa Nama minuman, harga, dan stok yang tersedia.
