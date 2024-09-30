@@ -5,10 +5,12 @@ NIM 2309116034 Sistem Informasi A'23
 
 # Alur Output Program
 
-1. Program dimulai dengan menampilkan Menu awal program Vending Machine sederhana yang terdiri dari CRUD(Create, Read, Update, Delete). Jika kita memilih menu 1. Tampilkan Minuman maka akan menampilkan beberapa Nama minuman, harga, dan stok yang tersedia. Berikut outputnya
+1. Program dimulai dengan menampilkan Menu awal program Vending Machine sederhana yang terdiri dari CRUD(Create, Read, Update, Delete). Jika kita memilih menu 1. Tampilkan Minuman maka akan menampilkan beberapa Nama minuman, harga, dan stok yang tersedia.
+
+Berikut outputnya
 ![Screenshot 2024-09-30 084002](https://github.com/user-attachments/assets/3cd9e953-1292-43a6-b982-1b075785863b)
 
-2. Jika kita mmemilih menu 2. Tambah Minuman, program akan bertanya Nama minuman baru, harga minuman baru, dan stok minuman baru, dan jika berhasil maka akan keluar output "Minuman berhasil ditambahkan."
+3. Jika kita mmemilih menu 2. Tambah Minuman, program akan bertanya Nama minuman baru, harga minuman baru, dan stok minuman baru, dan jika berhasil maka akan keluar output "Minuman berhasil ditambahkan."
    
 Berikut gambar output nya
 ![Screenshot 2024-09-30 084212](https://github.com/user-attachments/assets/183f4a41-95e1-4490-aacb-2b0669020a46)
