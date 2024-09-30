@@ -51,7 +51,7 @@ Program ini dibagi ke dalam dua package:
      - Drink: Merepresentasikan minuman dalam vending machine.
      - VendingMachine: Mengelola daftar minuman dan menyediakan fitur CRUD untuk objek Drink.
        
-# Alur Output Program
+### Alur Output Program
 
 1. Program dimulai dengan menampilkan Menu awal program Vending Machine sederhana yang terdiri dari CRUD(Create, Read, Update, Delete). Jika kita memilih menu 1. Tampilkan Minuman maka akan menampilkan beberapa Nama minuman, harga, dan stok yang tersedia.
 
